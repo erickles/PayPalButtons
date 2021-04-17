@@ -1,0 +1,36 @@
+{
+  "name": "paypalbuttons",
+  "widgetName": "PayPalButtons",
+  "version": "1.0.0",
+  "description": "Easy PayPal Now integrations",
+  "copyright": "2020 Mendix Technology BV",
+  "author": "Erick Souza",
+  "config": {
+    "projectPath": "./tests/testProject/",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "mobilecube",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server --open",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "test": "pluggable-widgets-tools test:unit:web --no-cache --ci && npm run test:e2e",
+    "test:unit": "pluggable-widgets-tools test:unit:web --coverage",
+    "test:e2e": "pluggable-widgets-tools test:e2e --url \"https://badge.mxapps.io\"",
+    "test:e2e:dev": "pluggable-widgets-tools test:e2e --debug",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.14.0"
+  },
+  "dependencies": {
+    "@paypal/react-paypal-js": "^6.0.0",
+    "classnames": "^2.2.6",
+    "react-paypal-button-v2": "^2.6.3"
+  }
+}

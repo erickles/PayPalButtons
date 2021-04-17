@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mobilecube.paypalbuttons.PayPalButtons" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Pay Pal Buttons</name>
+    <description>Easy PayPal Now integrations</description>
+    <icon>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/4QM8aHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pg0KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPg0KCTxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+DQoJCTxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjYzN0QxMDJERDAxMjExRTc5MDBGRkVDRTE5NzkzQkVBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjYzN0QxMDJFRDAxMjExRTc5MDBGRkVDRTE5NzkzQkVBIj4NCgkJCTx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYzN0QxMDJCRDAxMjExRTc5MDBGRkVDRTE5NzkzQkVBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYzN0QxMDJDRDAxMjExRTc5MDBGRkVDRTE5NzkzQkVBIi8+DQoJCTwvcmRmOkRlc2NyaXB0aW9uPg0KCTwvcmRmOlJERj4NCjwveDp4bXBtZXRhPg0KPD94cGFja2V0IGVuZD0ndyc/Pv/bAEMAAgEBAgEBAgIC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
+    </icon>
+    <properties>
+
+        <propertyGroup caption="General">
+
+            <property key="valueAttribute" type="attribute" required="true">
+                <caption>Amount</caption>
+                <description>The amount that is going to be paid</description>
+                <attributeTypes>
+                    <!-- <attributeType name="String"/>
+                    <attributeType name="Enum"/>
+                    <attributeType name="Integer"/> -->
+                    <attributeType name="Decimal"/>
+                    <!-- <attributeType name="Long"/> -->
+                </attributeTypes>
+            </property>
+
+            <property key="clientID" type="string" required="true">
+                <caption>Client ID</caption>
+                <description>PayPal's client ID</description>
+            </property>
+
+        </propertyGroup>
+
+        <propertyGroup caption="Display">
+
+            <property key="isDisabled" type="attribute" required="true">
+                <caption>Disabled</caption>
+                <description>The attribute to check whether the button is disabled or not</description>
+                <attributeTypes>
+                    <!-- <attributeType name="String"/>
+                    <attributeType name="Enum"/>
+                    <attributeType name="Integer"/> -->
+                    <attributeType name="Boolean"/>
+                    <!-- <attributeType name="Long"/> -->
+                </attributeTypes>
+            </property>
+                        
+        </propertyGroup>
+
+        <propertyGroup caption="Events">
+
+            <property key="onSuccess" type="action" required="true">
+                <caption>On success action</caption>
+                <description>Action to trigger when payment is succesful</description>
+            </property>
+
+            <property key="onCancel" type="action" required="true">
+                <caption>On cancel action</caption>
+                <description>Action to trigger when payment is canceled</description>
+            </property>
+
+            <property key="onError" type="action" required="true">
+                <caption>On error action</caption>
+                <description>Action to trigger when an error occurs</description>
+            </property>
+
+        </propertyGroup>
+
+    </properties>
+</widget>
